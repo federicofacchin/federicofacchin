@@ -405,6 +405,17 @@ textarea.form-input{
     .section-about-me__avatar-container{
         margin: 25px auto 15px;
     }
+    .section-banner__scroll {
+        bottom: 10px;
+    }
+    .section-banner__scroll span {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .section-banner__avatar{
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
     .section-about-me__card{
         margin-left: 0;
         display: flex;

@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f9f9ff;
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.card{
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    width: 100%;
+}
+/* Menu */
+
+.navbar__section{
+    background-color: #343353;
+    width: 100%;
+    color: white;
+    height: 64px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding : 10px 0;
+    position:fixed;
+}
+.navbar__section-container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 43px;
+    justify-content: space-between;
+}
+.navbar__logo{
+    width: 30%;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar__logo .navbar__logo-text{
+ 
+    text-transform:uppercase; 
+}
+.navbar__menu{
+    font-size: 16px;
+}
+
+.navbar__menu-list{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.navbar__menu-icon{
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.navbar__menu-link{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/*sections*/
+.section {
+    max-width: 1024px;
+    margin: 0 auto 100px;
+}
+.sections{
+    width: 100%;
+}
+.section-banner {
+    background-color: #343353;
+    background-image: url("../Imagenes/fondo.svg");
+    text-align: center;
+    height: 100vh;
+    min-height: 700px;
+}
+
+.section-banner__name , .section-banner__profesion{
+    color: white;
+}
+.section-banner__items{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 45px;
+}
+
+.section-banner__item-icon{
+    width: 24px;
+    margin-left: 10px;
+}
+
+.section-banner__scroll {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0px auto;
+    width: 100%;
+    bottom: 32px;
+    transition: bottom 0.2s ease;
+}
+
+.section-banner__scroll:hover{
+    bottom: 40px;
+}
+
+.section-banner__scroll span{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section-banner__scroll-icon{
+    width: 16px;
+    margin: 0 auto;
+}
+
+.section-about-me{
+    padding: 60px 0;
+}
+.section-banner__avatar{
+    margin-top: 235px;
+    margin-bottom: 50px;
+}
+.section-banner__avatar , .section-about-me__avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.section-about-me__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-about-me__card{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about-me__card-info{
+    width: 50%;
+}
+
+.section-about-me__card-switches{
+    width: 50%;
+}
+
+.section-about-me__skill-bar{
+    margin: 10px 0 15px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    height: 8px;
+}
+.section-about-me__skill-bar--html{
+    background-color: rgb(240,101,41);
+    width: 95%;
+    height: 8px;
+    border-radius: 16px;
+}
+.section-about-me__skill-bar--css{
+    background-color: #2FA3D4;
+    width: 75%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__skill-bar--javascript{
+    background-color: yellow;
+    width: 75%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+
+.section-about-me__skill-bar--ux{
+    background-color: rgb(233,143,254);
+    width: 70%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__skill-bar--react{
+    background-color: rgb(62,211,223);
+    width: 75%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__skill-bar--java{
+    background-color: rgb(212,21,24);
+    width: 85%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+.section-about-me__skill-bar--dotnet{
+    background-color: rgb(121, 121, 255);
+    width: 75%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+
+
+.section-about-me__skill-bar--Sql{
+    background-color: rgb(21, 212, 107);
+    width: 70%;
+    height: 8px;
+    border-radius: 16px;
+}
+
+
+.section-services__container, .section-experiences__container , .section-my-work__container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+
+.section-services__card:last-child, .section-experiences__card:last-child, .section-my-work__card:last-child{
+    margin-right: 0;
+}
+.section-my-work__container{
+    margin-bottom: 16px;
+}
+
+.section-services__card{
+    background-color: #6c6ce5;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.5);
+}
+
+.section-services__card-icon{
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+}
+
+.section-services__card-info{
+   color: white;
+}
+
+.section-my-work__picture{
+    width: 100%;
+    max-height: 140px;
+}
+.section-my-work__card{
+    position: relative;
+}
+
+.section-experiences__card-icon{
+    color: #ff4c60;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.section-experiences__card-item{
+    border-left: 1px solid #ff4c60;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    padding-left: 10px;
+}
+.section-experiences__card-year{
+    color: grey;
+}
+
+.section-experiences__card-academy{
+    font-weight: bold;
+}
+.section-my-work__mask{
+    background-color: #6c6ce5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    color: white;
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.2);
+}
+
+.section-my-work__card:hover .section-my-work__mask{
+    opacity: 0.9;
+}
+.section-my-work-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*BOTONES*/
+.button-primary {
+    background-color: #ff4c60;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 21px;
+    width: max-content;
+    min-width: 160px;
+    color: white;
+    display: flex;
+    height: 42px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.25);
+}
+
+.button-primary:hover {
+    background-color:  rgb(98, 60, 201);
+}
+/*FOOTER*/
+footer  {
+    background-color: #f9f9ff;
+    max-width: 1024px;
+    margin: 0 auto 100px;
+}
+
+.footer-contact__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact__info {
+    width : 30%;
+}
+
+.footer-contact__form{
+    background-color: rgb(243, 243, 243);
+}
+
+.footer-contact__form-atributes-group{
+    display: flex;
+    border: none;
+    padding: 0;
+}
+
+.form-input {
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.25);
+    border-radius: 24px;
+    margin-bottom: 30px;
+    padding: 24px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+textarea.form-input{
+    height: 110px;
+}
+
+.form-input + .form-input{
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 1024px){
+    .navbar__menu-icon{
+        display: none;
+    }
+
+    .section-about-me, .section-services, .section-experiences , .section-my-work, footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar__logo{
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar__logo{
+        display: none;
+    }
+    .section-about-me__container, .section-services__container , .section-experiences__container, .section-my-work__container, .footer-contact__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-about-me__avatar-container{
+        margin: 25px auto 15px;
+    }
+    .section-about-me__card{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-about-me__card-info{
+        text-align: center;
+        margin: 0 0 40px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .section-about-me__card-skills{
+        margin: 0 0 20px;
+        width: 100%;
+    }
+    .section-services__card , .section-experiences__card , .section-my-work__card {
+        margin-bottom: 40px;
+    }
+
+    .footer-contact__info{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-contact__form{
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+}

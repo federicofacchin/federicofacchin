@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar__section"> 
+        <div class="navbar__section-container">           
+            <div class="navbar__logo">
+                <span class="navbar__logo-text">Facchin Federico</span>
+            </div>
+                <nav class="navbar__menu">
+                    <ul class="navbar__menu-list">
+
+                        <li class="navbar__menu-list-item">
+                            <a href="#about-me" class="navbar__menu-link">
+                                <img src="Imagenes/user-solid.svg" alt="imagen usuario" class="navbar__menu-icon">
+                                Sobre mi
+                            </a>
+                        </li>
+
+                        <li class="navbar__menu-list-item">
+                            <a href="#services" class="navbar__menu-link">
+                                <img src="Imagenes/briefcase-solid.svg" alt="imagen maletin" class="navbar__menu-icon">
+                                Servicios
+                            </a>
+                        </li>
+
+                      <!--  <li class="navbar__menu-list-item">
+                            <a href="#experiences" class="navbar__menu-link"> 
+                                <img src="../Imagenes/graduation-cap-solid.svg" alt="imagen diploma" class="navbar__menu-icon">
+                                Experiencia
+                            </a>
+                        </li>
+                        -->
+                        <li class="navbar__menu-list-item">
+                            <a href="#my-work" class="navbar__menu-link">
+                                <img src="Imagenes/layer-group-solid.svg" alt="Imagen elementos apilados" class="navbar__menu-icon">    
+                                Mis Trabajos
+                            </a>
+                        </li>
+
+                        <li class="navbar__menu-list-item">
+                            <a href="#contact" class="navbar__menu-link">
+                                <img src="Imagenes/comments-solid.svg" alt="imagen comentarios" class="navbar__menu-icon">    
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+        </div>
+    </header>
+    <section class="sections">
+
+        <section class="section-banner">
+            <img  class='section-banner__avatar'src="Imagenes/avatar.svg" alt="Imagen avatar">
+            <h1 class="section-banner__name">Facchin Federico</h1>
+            <h2 class="section-banner__profesion">Fullstack Developer</h2>
+            
+            <ul class="section-banner__items">
+                <li>
+                    <a href="https://www.linkedin.com/in/federicofacchin/" target="_blank">
+                        <img class="section-banner__item-icon" src="Imagenes/linkedin-in-brands.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/federicofacchin" target="_blank">
+                        <img class="section-banner__item-icon" src="Imagenes/github-brands.svg">
+                    </a>
+                </li>
+            </ul>
+            
+            <a class="button-primary" href="#contact">Contactame</a>
+            <a class="section-banner__scroll" href="#about-me">
+                <span>Scroll down</span>
+                <img class="section-banner__scroll-icon" src="Imagenes/scroll.png" alt=""/>
+            </a>
+        </section>
+
+        <section id="about-me" class=" section section-about-me">
+            <h3>Sobre mi</h3>
+            <div class="section-about-me__container">
+                <div class="section-about-me__card">
+                    <div class="section-about-me__avatar-container">
+                        <img class="section-about-me__avatar" src="Imagenes/avatar.svg" alt="Avatar">
+                    </div>
+                    <div class="section-about-me__card-info">
+                        <p>Hola! Soy un desarrollador Full Stack pronto a recibirme de Analista en Sistemas. Tambien he trabajado con Metodologias Agiles y Git. Actualmente en busqueda laboral.</p>
+                        <a class="button-primary" href="https://drive.google.com/file/d/1ObRS59LM45NHfynttkxJn8IxEJepgG_H/view?usp=sharing"  target="_blank">Ver curriculum</a>
+                    </div>
+                </div>
+                <div class="card section-about-me__card-switches">
+                    <span>HTML</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--html"></div>
+                    </div>
+                    <span>CSS</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--css"></div>
+                    </div>
+                    <span>Javascript</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--javascript"></div>
+                    </div>
+                    <span>UX/UI</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--ux"></div>
+                    </div>
+                    <span>React</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--react"></div>
+                    </div>
+                    <span>Java</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--java"></div>
+                    </div>
+                    <span>C# / .Net</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--dotnet"></div>
+                    </div>
+                    <span>SQL</span>
+                    <div class="section-about-me__skill-bar">
+                        <div class="section-about-me__skill-bar--Sql"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services"class="section section-services">
+            <h3>Servicios</h3>
+            <div class="section-services__container">
+                <div class="card section-services__card">
+                    <img src="Imagenes/dev.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">/HTML</h2>
+                </div>
+                <div class="card section-services__card">
+                    <img src="Imagenes/css.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">.CSS</h2>
+                </div>
+                <div class="card section-services__card">
+                    <img src="Imagenes/ux.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">UX/UI</h2>
+                </div>
+            </div>
+
+            <div class="section-services__container">
+                <div class="card section-services__card">
+                    <img src="Imagenes/javascript.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">Javascript</h2>
+                </div>
+                <div class="card section-services__card">
+                    <img src="Imagenes/react.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">React</h2>
+                </div>
+                <div class="card section-services__card">
+                    <img src="Imagenes/java.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">Java</h2>
+                </div>
+            </div>
+
+            <div class="section-services__container">
+                <div class="card section-services__card">
+                    <img src="Imagenes/csharp.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">C#</h2>
+                </div>
+                <div class="card section-services__card">
+                    <img src="Imagenes/sql.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">Sql</h2>
+                </div>
+                <div class="card section-services__card">
+                    <img src="Imagenes/dotnet.svg" alt="Imagen Html" class="section-services__card-icon">
+                    <h2 class="section-services__card-info">.Net</h2>
+                </div>
+            </div>
+        </section>
+
+        <!--<section id="experiences" class=" section section-experiences">
+            <h3>Experiencia</h3>
+            <div class="section-experiences__container">
+                <div class="card section-experiences__card">
+                    <img src="../Imagenes/graduation-cap.svg" alt="graduation cap" class="section-experiences__card-icon">
+                    <div class="section-experiences__card-item">
+                        <h5 class="section-experiences__card-year">2000-2000</h5>
+                        <h4 class="section-experiences__card-academy">Academia</h4>
+                        <p>texto de relleno</p>
+                    </div>
+                    <img src="../Imagenes/graduation-cap.svg" alt="graduation cap" class="section-experiences__card-icon">
+                    <div class="section-experiences__card-item">
+                        <h5 class="section-experiences__card-year">2000-2000</h5>
+                        <h4 class="section-experiences__card-academy">Academia</h4>
+                        <p>texto de relleno</p>
+                    </div>
+                    <img src="../Imagenes/graduation-cap.svg" alt="graduation cap" class="section-experiences__card-icon">
+                    <div class="section-experiences__card-item">
+                        <h5 class="section-experiences__card-year">2000-2000</h5>
+                        <h4 class="section-experiences__card-academy">Academia</h4>
+                        <p>texto de relleno</p>
+                    </div>
+                </div>
+                <div class="card section-experiences__card">
+                    <img src="../Imagenes/graduation-cap.svg" alt="graduation cap" class="section-experiences__card-icon">
+                    <div class="section-experiences__card-item">
+                        <h5 class="section-experiences__card-year">2000-2000</h5>
+                        <h4 class="section-experiences__card-academy">Academia</h4>
+                        <p>texto de relleno</p>
+                    </div>
+                    <img src="../Imagenes/graduation-cap.svg" alt="graduation cap" class="section-experiences__card-icon">
+                    <div class="section-experiences__card-item">
+                        <h5 class="section-experiences__card-year">2000-2000</h5>
+                        <h4 class="section-experiences__card-academy">Academia</h4>
+                        <p>texto de relleno</p>
+                    </div>
+                    <img src="../Imagenes/graduation-cap.svg" alt="graduation cap" class="section-experiences__card-icon">
+                    <div class="section-experiences__card-item">
+                        <h5 class="section-experiences__card-year">2000-2000</h5>
+                        <h4 class="section-experiences__card-academy">Academia</h4>
+                        <p>texto de relleno</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+        <section id="my-work" class=" section section-my-work">
+            <h3>Mis trabajos</h3>
+            <div class="section-my-work__container">
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="Imagenes/trabajo-1.svg" alt="trabajos">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">TBC</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="Imagenes/trabajo-2.svg" alt="trabajos">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">TBC</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="Imagenes/trabajo-3.svg" alt="trabajos">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">TBC</h3>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="section-my-work__container">
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="Imagenes/trabajo-4.svg" alt="trabajos">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">TBC</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="Imagenes/trabajo-5.svg" alt="trabajos">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">TBC</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="Imagenes/trabajo-6.svg" alt="trabajos">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">TBC</h3>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+    </section>
+    <footer id="contact" class="footer-contact__form">
+        <h3>Contactame</h3>
+        <div class="footer-contact__form-container">
+            <form class="footer-contact__form" action="https://formsubmit.co/federico.nicolas.facchin@gmail.com" method="POST">
+                <fieldset class="footer-contact__form-atributes-group">
+                    <input class="form-input" type="text" placeholder="Nombre" required/>
+                    <input class="form-input" type="text" placeholder="Email" required/>
+                </fieldset>
+                <textarea class="form-input" placeholder="Mensaje" required></textarea>
+                <input type="submit" class="button-primary" value="Enviar">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

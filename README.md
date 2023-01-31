@@ -1,11 +1,7 @@
 <h2> Hi, I'm Federico Faccchin! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <p><em>FullStack Software Enginner</em></p>
 
-[![Linkedin: federicofacchin](https://img.shields.io/badge/-thaianebraga-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/federicofacchin/)](https://www.linkedin.com/in/federicofacchin/)
-[![GitHub Thaiane](https://img.shields.io/github/followers/thaiane?label=follow&style=social)](https://github.com/Thaiane)
-
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+### <img src="https://giphy.com/embed/26xBDqFwweEEQr36o" width="50"> A little more about me...  
 
 ```javascript
 const thai = {

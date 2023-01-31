@@ -6,6 +6,7 @@ html{
 }
 body{
     background-color: #f9f9ff;
+    background-image: url("../Imagenes/fondo.svg");
     margin: 0;
     font-family: 'Roboto', 'sans-serif';
 }
@@ -78,8 +79,9 @@ body{
     width: 100%;
 }
 .section-banner {
-    background-color: #343353;
-    background-image: url("../Imagenes/fondo.svg");
+    /*background-color: #343353;*/
+    background-image: linear-gradient(#343353,#6c6ce5);
+    /*background-image: url("../Imagenes/fondo.svg");*/
     text-align: center;
     height: 100vh;
     min-height: 700px;
@@ -109,6 +111,7 @@ body{
     width: 100%;
     bottom: 32px;
     transition: bottom 0.2s ease;
+    text-decoration: none;
 }
 
 .section-banner__scroll:hover{

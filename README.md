@@ -6,7 +6,8 @@
 ```javascript
 const federico = {
   pronouns: "he" | "his",
-  code: [Javascript HTML, CSS, C#, Java,SQL],
+  code: [Javascript HTML, CSS, C#, Java],
+  databases: [SQL,Firebase],
   tools: [React, React Native, .Net, Styled-Components],
   architecture: [ " currently adquiring knolege of design system patterns"],
  challenge: "I am currently taking courses of Javascript and React to improve my knowledge and my portfolio :) "

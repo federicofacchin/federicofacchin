@@ -9,8 +9,8 @@ const federico = {
   code: [Javascript HTML, CSS, C#, Java],
   databases: [SQL,Firebase],
   tools: [React, React Native, .Net, Styled-Components],
-  architecture: [ " currently adquiring knolege of design system patterns"],
- challenge: "I am currently taking courses of Javascript and React to improve my knowledge and my portfolio :) "
+  architecture: [ "Adquiring knowlegde of design system patterns"],
+ challenge: "I'm currently challenging myself to learn new skills by taking courses of Javascript and React to improve myself and my portfolio."
 }
 ```
 

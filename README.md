@@ -1,4 +1,4 @@
-<h2> Hi, I'm Federico Faccchin! <img src="[https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif](https://media.giphy.com/media/l4KhQo2MESJkc6QbS/giphy.gif)" width="50"></h2>
+<h2> Hi, I'm Federico Faccchin! <img src="https://media.giphy.com/media/l4KhQo2MESJkc6QbS/giphy.gif" width="50"></h2>
 <p><em>FullStack Software Enginner</em></p>
 
 ### <img src="" width="50"> A little more about me...  

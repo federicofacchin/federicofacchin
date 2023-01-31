@@ -5,7 +5,7 @@
 
 ```javascript
 const federico = {
-  pronouns: "he" | "his",
+  pronouns: "he" | "him",
   code: [Javascript HTML, CSS, C#, Java],
   databases: [SQL,Firebase],
   tools: [React, React Native, .Net, Styled-Components],

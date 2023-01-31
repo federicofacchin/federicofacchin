@@ -1,7 +1,7 @@
 <h2> Hi, I'm Federico Faccchin! <img src="https://media.giphy.com/media/l4KhQo2MESJkc6QbS/giphy.gif" width="50"></h2>
 <p><em>FullStack Software Enginner</em></p>
 
-###<img src="https://media.giphy.com/media/hS6KvugVZSAH6/giphy-downsized-large.gif" width="50"> A little more about me... 
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
 ```javascript
 const thai = {

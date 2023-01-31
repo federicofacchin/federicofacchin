@@ -410,6 +410,9 @@ textarea.form-input{
         display: flex;
         flex-direction: column;
     }
+    .section-about-me__card-switches{
+        width: 100%;
+    }
     .section-about-me__card-info{
         text-align: center;
         margin: 0 0 40px;

@@ -431,6 +431,6 @@ textarea.form-input{
     .footer-contact__form{
         margin-left: 0;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 }

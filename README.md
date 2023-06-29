@@ -10,7 +10,7 @@ const federico = {
   databases: [SQL,Firebase],
   tools: [React, React Native, .Net, Styled-Components],
   architecture: [ "Adquiring knowlegde of design system patterns"],
- challenge: "I'm currently challenging myself to learn new skills by taking courses of Javascript and React to improve myself and my portfolio."
+ challenge: "I'm currently challenging myself to learn new skills by taking courses of Java, Data Structure and Algorithms , Generics, Spring , and more to improve myself and be a better programmer."
 }
 ```
 

@@ -6,9 +6,9 @@
 ```javascript
 const federico = {
   pronouns: "he" | "him",
-  code: [Javascript HTML, CSS, C#, Java, Spring, Jpa , Hibernate, Junit, Mockito],
+  code: [Javascript HTML, CSS, C#, Java],
   databases: [SQL,Firebase],
-  tools: [React, React Native, .Net, Styled-Components],
+  tools: [React, React Native, .Net, Spring, Jpa , Hibernate, Junit, Mockito, Styled-Components],
   architecture: [ "Adquiring knowlegde of design system patterns"],
  challenge: "I'm currently challenging myself to learn new skills by taking courses of Java, Data Structure and Algorithms , Spring , and more to improve myself and be a better programmer."
 }

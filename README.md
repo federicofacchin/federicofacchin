@@ -5,11 +5,11 @@
 
 ```javascript
 const federico = {
-  code: [Javascript HTML, CSS, Java],
-  databases: [SQL,Firebase],
-  tools: [React, React Native, SpringBoot, Jpa , Hibernate, Junit, Mockito, Styled-Components],
-  architecture: [ "Adquiring knowlegde of design system patterns"],
- challenge: "I'm currently challenging myself to learn new skills by taking courses of Java, Data Structure and Algorithms , Spring , and more to improve myself and be a better programmer."
+  code: [Java, Javascript HTML, CSS],
+  databases: [MSQL Server, MySQL, PostgreSQL , Firebase],
+  tools: [React, React Native, SpringBoot, Jpa , Hibernate, Junit, Mockito, Swaggger, Jenkins, AWS],
+  architecture: ["Clean Code, design patterns, good practices , SOLID Principles"],
+ challenge: "I'm currently challenging myself to learn new skills by taking courses to improve myself and be a better programmer."
 }
 ```
 
